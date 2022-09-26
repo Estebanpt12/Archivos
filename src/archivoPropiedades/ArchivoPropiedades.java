@@ -1,7 +1,5 @@
 package archivoPropiedades;
 
-import tallerArchivos.Archivos;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -12,7 +10,6 @@ public class ArchivoPropiedades {
 
     public static void main(String[] args) {
         String ruta = "Resources/Properties.properties";
-        File carpeta = new File("Resources");
         File archivo = new File(ruta);
         ArchivoPropiedades archivos = new ArchivoPropiedades();
         try{

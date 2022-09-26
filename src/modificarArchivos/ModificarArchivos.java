@@ -1,16 +1,16 @@
-package tallerArchivos;
+package modificarArchivos;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Archivos {
+public class ModificarArchivos {
     public static void main(String[] args) {
 
         File carpeta = new File("Resources");
         File archivo = new File("Resources/Archivo.txt");
-        Archivos archivos = new Archivos();
+        ModificarArchivos archivos = new ModificarArchivos();
 
         archivos.crearCarpeta(carpeta);
         try{
